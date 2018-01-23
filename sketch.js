@@ -15,5 +15,11 @@ function setup(){
 }
 
 function draw(){
+    if(keyIsPressed){
+        image(lpkidsred, 0, 0);
+    }
+    else{
+        image(lpkidsgray, 0, 0);
+    }
     
 }
